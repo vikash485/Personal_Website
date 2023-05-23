@@ -13,7 +13,7 @@ nav
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 80px;
+    height: 65px;
     background-color: rgb(18, 18, 62);
 }
 nav ul
@@ -40,13 +40,13 @@ main hr
     border: 0;
     background: #9c97f1;
     height: 1.2px;
-    margin: 60px 84px;
+    margin: 50px 84px;
 }
 .left
 {
     /* text-align: left; */
     padding-left: 30px;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
 }
 .right
 {
@@ -57,7 +57,7 @@ main hr
     display: flex;
     justify-content: space-around;
     align-items: center;
-    margin: 130px 0;
+    margin: 100px 0;
 }
 .firstSection > div
 {
@@ -108,7 +108,7 @@ main hr
     background: white;
     width: 78vw;
     height: 2px;
-    margin: 56px 0;
+    margin: 70px 0;
     display: flex;
 }
 .secondSection .vertical
@@ -139,6 +139,24 @@ main hr
     top: 86px;
     font-size: 10px;
     color: gray;
+}
+.thirdSection
+{
+    max-width: 80vw;
+    margin: auto;
+    height: 40vh;
+}
+.thirdSection h1
+{
+    font-size: 1.9rem;
+}
+.list
+{
+    margin-top: 20px;
+}
+.list ul li
+{
+    padding: 3px 0;
 }
 .text-gray
 {
