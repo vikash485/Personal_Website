@@ -26,7 +26,7 @@ nav ul
 nav ul li
 {
     list-style: none;
-    margin: 0 10px;
+    margin: 0 1.5vw;
 }
 nav ul li a
 {
@@ -327,7 +327,6 @@ footer .footer-rights
     }
     .thirdSection
     {
-        max-width: 80vw;
         height: 37vh;
     }
     .thirdSection h1
@@ -336,7 +335,6 @@ footer .footer-rights
     }
     .fourthSection
     {
-        max-width: 80vw;
         height: 30vh;
     }
     .fourthSection h1
@@ -358,6 +356,132 @@ footer .footer-rights
     .atc-link:hover
     {
         width:16px;
+    }
+    .footer-heading
+    {
+        padding-top: 20px;
+    }
+    .footer
+    {
+        padding: 8px 122px;
+    }
+    footer .footer-rights
+    {
+        padding: 5px 0;
+    }
+}
+
+@media only screen and (min-width:601px) and (max-width:1050px)
+{
+    body
+    {
+        font-size: 12px;
+    }
+    .left
+    {
+        font-size: 1.2rem;
+    }
+    .firstSection > div
+    {
+        width: 33%;
+    }
+    main hr
+    {
+        margin: 8vh 7vw;
+    }
+    .leftSection
+    {
+        font-size: 1.2rem;
+        margin: 50px 0;
+        margin-left: 60px;
+    }
+    .leftSection .buttons
+    {
+        padding: 20px 0;
+    }
+    .leftSection .btn
+    {
+        padding: 12px;
+        border: 2px solid white;
+        border-radius: 4px;
+    }
+
+    .rightSection img
+    {
+        width: 75%;
+    }
+    .secondSection
+    {
+        max-width: 80vw;
+        height: 48vh;
+    }
+    .secondSection h1
+    {
+        font-size: 1rem;
+    }
+    .secondSection .box
+    {
+        width: 78vw;
+        height: 2px;
+        margin: 70px 0;
+    }
+    .secondSection .vertical
+    {
+        height: 85px;
+        width: 1px;
+        margin: 0 13vw;
+    }
+    .image-top
+    {
+        width: 30px;
+        top: -35px;
+        left: -9px;
+    }
+    .vertical-title
+    {
+        width: 90px;
+        right: 3px;
+        top: 65px;
+        font-size: 10px;
+    }
+    .vertical-desc
+    {
+        width: 90px;
+        right: 3px;
+        top: 72px;
+        font-size: 7px;
+    }
+    .thirdSection
+    {
+        height: 40vh;
+    }
+    .thirdSection h1
+    {
+        font-size: 1rem;
+    }
+    .fourthSection
+    {
+        height: 30vh;
+    }
+    .fourthSection h1
+    {
+        font-size: 1rem;
+    }
+    svg
+    {
+        width: 15px;
+    }
+    svg:hover
+    {
+        width:16px;
+    }
+    .atc-link
+    {
+        width:16px;
+    }
+    .atc-link:hover
+    {
+        width:17px;
     }
     .footer-heading
     {
