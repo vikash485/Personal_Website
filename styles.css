@@ -43,19 +43,19 @@ main hr
     border: 0;
     background: #9c97f1;
     height: 1.2px;
-    margin: 50px 84px;
+    margin: 9vh 6vw;
 }
 
 .left
 {
     /* text-align: left; */
-    padding-left: 30px;
+    padding-left: 6vw;
     font-size: 1.2rem;
 }
 
 .right
 {
-    padding-right: 20px;
+    padding-right: 2vw;
 }
 
 .firstSection
@@ -126,7 +126,7 @@ main hr
     height: 93px;
     width: 1px;
     background-color: white;
-    margin: 0 200px;
+    margin: 0 13vw;
 }
 .image-top
 {
@@ -243,4 +243,132 @@ footer .footer-rights
     text-align: center;
     color: gray;
     padding: 12px 0;
+}
+
+@media only screen and (max-width:600px)
+{
+    body
+    {
+        font-size: 8px;
+    }
+    .left
+    {
+        font-size: 0.8rem;
+    }
+    .firstSection > div
+    {
+        width: 33%;
+    }
+    main hr
+    {
+        margin: 8vh 7vw;
+    }
+    .leftSection
+    {
+        font-size: 1.2rem;
+        margin: 50px 0;
+        margin-left: 60px;
+    }
+    .leftSection .buttons
+    {
+        padding: 20px 0;
+    }
+    .leftSection .btn
+    {
+        padding: 12px;
+        border: 2px solid white;
+        border-radius: 4px;
+    }
+
+    .rightSection img
+    {
+        width: 75%;
+    }
+    .secondSection
+    {
+        max-width: 80vw;
+        height: 45vh;
+    }
+    .secondSection h1
+    {
+        font-size: 0.9rem;
+    }
+    .secondSection .box
+    {
+        width: 78vw;
+        height: 2px;
+        margin: 70px 0;
+    }
+    .secondSection .vertical
+    {
+        height: 85px;
+        width: 1px;
+        margin: 0 13vw;
+    }
+    .image-top
+    {
+        width: 30px;
+        top: -35px;
+        left: -9px;
+    }
+    .vertical-title
+    {
+        width: 90px;
+        right: 3px;
+        top: 65px;
+        font-size: 7px;
+    }
+    .vertical-desc
+    {
+        width: 90px;
+        right: 3px;
+        top: 72px;
+        font-size: 5px;
+    }
+    .thirdSection
+    {
+        max-width: 80vw;
+        height: 37vh;
+    }
+    .thirdSection h1
+    {
+        font-size: 0.9rem;
+    }
+    .fourthSection
+    {
+        max-width: 80vw;
+        height: 30vh;
+    }
+    .fourthSection h1
+    {
+        font-size: 0.9rem;
+    }
+    svg
+    {
+        width: 14px;
+    }
+    svg:hover
+    {
+        width:15px;
+    }
+    .atc-link
+    {
+        width:15px;
+    }
+    .atc-link:hover
+    {
+        width:16px;
+    }
+    .footer-heading
+    {
+        padding-top: 20px;
+    }
+    .footer
+    {
+        padding: 8px 122px;
+    }
+    footer .footer-rights
+    {
+        padding: 5px 0;
+    }
 }
