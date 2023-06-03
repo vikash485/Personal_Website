@@ -267,7 +267,7 @@ footer .footer-rights
     {
         font-size: 1.2rem;
         margin: 50px 0;
-        margin-left: 60px;
+        margin-left: 40px;
     }
     .leftSection .buttons
     {
@@ -301,7 +301,7 @@ footer .footer-rights
     }
     .secondSection .vertical
     {
-        height: 85px;
+        height: 75px;
         width: 1px;
         margin: 0 13vw;
     }
@@ -333,6 +333,11 @@ footer .footer-rights
     {
         font-size: 0.9rem;
     }
+    .list ul li
+    {
+        padding: 3px 0;
+        margin: 10px 10px;
+    }
     .fourthSection
     {
         height: 30vh;
@@ -340,6 +345,11 @@ footer .footer-rights
     .fourthSection h1
     {
         font-size: 0.9rem;
+    }
+    .pfs ul li
+    {
+        padding: 3px 0;
+        margin: 10px 10px;
     }
     svg
     {
@@ -391,7 +401,7 @@ footer .footer-rights
     }
     .leftSection
     {
-        font-size: 1.2rem;
+        font-size: 1.1rem;
         margin: 50px 0;
         margin-left: 60px;
     }
@@ -413,7 +423,7 @@ footer .footer-rights
     .secondSection
     {
         max-width: 80vw;
-        height: 48vh;
+        height: 58vh;
     }
     .secondSection h1
     {
@@ -453,7 +463,7 @@ footer .footer-rights
     }
     .thirdSection
     {
-        height: 40vh;
+        height: 41vh;
     }
     .thirdSection h1
     {
@@ -461,7 +471,7 @@ footer .footer-rights
     }
     .fourthSection
     {
-        height: 30vh;
+        height: 33vh;
     }
     .fourthSection h1
     {
